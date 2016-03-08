@@ -10,6 +10,10 @@ question_board: false
 # The default icon is fa-cloud.
 sidebar:
   
+  -
+    label: Syllabus
+    url: 'kiei925-spring16/files/KIEI-925-0-81_Spring2016.pdf'
+    icon: fa-list-ol
   - 
     label: Discussion
     url: "https://canvas.northwestern.edu/courses/38522/discussion_topics"
