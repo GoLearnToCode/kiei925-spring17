@@ -11,6 +11,11 @@ question_board: false
 sidebar:
   
   - 
-    label: "Community"
-    url: "http://community.golearntocode.com/c/kiei-925-winter-2016"
+    label: Discussion
+    url: "https://canvas.northwestern.edu/courses/38522/discussion_topics"
     icon: fa-comments
+  - 
+    label: Grades
+    url: "https://canvas.northwestern.edu/courses/38522/gradebook"
+    icon: fa-star-o
+  
