@@ -1,8 +1,10 @@
-# Due next Sunday, January 10, 11:59pm
+# Due Before the Next Class
 
-- Pick an app idea (you're not committing to it for the final just yet... that will happen by Week 5)
-- Create an Excel spreadsheet which contains:
-    - At least 5 user stories for your app.
-    - A domain model for your app – at least 3 models
-- Email your user stories and domain model spreadsheet to Garrett (garrett.martin@kellogg.northwestern.edu) by 11:59pm on Sunday.
-    
+1. Read the Etsy user stories and business rules.
+1. Create a Google Sheets document that contains your database schema.
+    - Use a different tab (sheet) for each table.
+    - Include both the name and data type of each column.
+    - Data types you can use: `INT`, `text`, `boolean`, `date`, and `datetime`.
+    - Every table include one primary key column named `id` that is of type `INT`
+1. Share your document with Garrett (garrett.martin@kellogg.northwestern.edu) (give him read/write access).
+
