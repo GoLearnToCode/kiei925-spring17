@@ -1,7 +1,7 @@
 # Due Before the Next Class
 
 1. Read the Etsy user stories and business rules.
-1. Create a Google Sheets document that contains your database schema.
+1. Create a _Google Sheets_ document that contains your database schema.
     - Use a different tab (sheet) for each table.
     - Include both the name and data type of each column.
     - Data types you can use: `INT`, `text`, `boolean`, `date`, and `datetime`.
