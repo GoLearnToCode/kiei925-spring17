@@ -14,6 +14,8 @@ I've made a full deck of nice images available for you.  There are 52 images and
 
 For example:
 
-```http://golearntocode.com/images/cards/10_of_diamonds.png``` is the image for the 10 of diamonds:
+```http://golearntocode.com/images/cards/10_of_diamonds.png``` 
+
+is the image for the 10 of diamonds:
 
 ![Card](http://golearntocode.com/images/cards/10_of_diamonds.png)
