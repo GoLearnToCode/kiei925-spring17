@@ -1,3 +1,5 @@
+**Here's the plan for today.**
+
 * What in the world are we doing here?
 * What is an MVP? (No, not Patrick Kane or Kris Bryant)
 * Learn the recipe for writing a proper _user story_
