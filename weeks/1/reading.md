@@ -25,15 +25,15 @@ If you want to succeed, you will also need to work differently than you ever hav
 
 **Consider The Following**
 
-Professional developers make their money by knowing how to invent unique solutions through research, not by memorizing past solutions.
+> Professional developers make their money by knowing how to invent unique solutions through research, not by memorizing past solutions.
 They have learned how to think. Not how to copy.
 
-Even if you don't aspire to become a professional developer, you will work for companies that create digital products.
+> Even if you don't aspire to become a professional developer, you will work for companies that create digital products.
 This course is will help, you can't learn everything in just 10 weeks.  
 
-Knowing all of this, consider the following:
+> Knowing all of this, consider the following:
 
-_What should you learn now, so that you can continue to learn more on your own?_
+> _What should you learn now, so that you can continue to learn more on your own?_
 
 ## Secrets of the Ninjas
 
