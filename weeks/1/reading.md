@@ -1,11 +1,14 @@
+## Reading
 
-Please read all of these this week.  Be ready to discuss in class.
+First, download your copy of Getting Real and start skimming through it.  We will be referring to it often throughout the quarter.
 
-Remember: I do not necessarily endorse everything here - the idea is to challenge your thinking.  
+Then, please read the following three articles this week. 
 
 * [Introduction to User Stories](http://en.wikipedia.org/wiki/User_story)
 * [Advantages of the User Story Template](http://www.mountaingoatsoftware.com/blog/advantages-of-the-as-a-user-i-want-user-story-template)
 * [User Stories are not Requirements](http://www.scrumalliance.org/community/articles/2010/april/new-to-user-stories)
+
+And remember, I do not necessarily endorse everything I ask you to read - my goal is to challenge our thinking and instigate discussion.  
 
 ## Week 1 Survival Guide
 
