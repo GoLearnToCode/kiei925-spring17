@@ -7,13 +7,18 @@
 3. Create a new Cloud9 workspace named `hw1` and select the option to clone ```http://github.com/kiei925-spring16/etsy1```. 
 2. In your Rails project, replace the home page with a web page based on your wireframe.
 3. Upload your wireframe (take a picture of it, etc.) and save it into your project as `wireframe.png` (or some other image format).
-4. Now that you're finished: somewhere on your home page, use HTML to display your estimate; for example:
+4. Now that you're finished: somewhere on your home page, use HTML to display your estimate and actual time; for example:
 
-```html
-<p><small>I originally estimated 2 hours. It took me 12 hours.</small></p>
+``` html
+<p><small>I originally estimated 2 hours. It actually took me 12 hours.</small></p>
 ```
-
 Of course, use your own values instead of the numbers shown above.
+
+**GRADING**
+
+- 7 points:  A Rails application whose home page shows a simplified version of the Etsy home page.  Grading is based mostly on "does it show a web page", but CSS styling will be taken into account.
+- 2 point: An uploaded wireframe.
+- 1 point: The home page includes your estimate and actual.
 
 **HINTS**
 
