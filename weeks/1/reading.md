@@ -1,12 +1,6 @@
-## Reading
+# Reading
 
-First, download your copy of Getting Real and start skimming through it.  We will be referring to it often throughout the quarter.
-
-Then, please read the following three articles this week. 
-
-* [Introduction to User Stories](http://en.wikipedia.org/wiki/User_story)
-* [Advantages of the User Story Template](http://www.mountaingoatsoftware.com/blog/advantages-of-the-as-a-user-i-want-user-story-template)
-* [User Stories are not Requirements](http://www.scrumalliance.org/community/articles/2010/april/new-to-user-stories)
+First, [download your copy of Getting Real](https://basecamp.com/about/books/Getting%20Real.pdf) and start skimming through it.  We will be referring to it often throughout the quarter.
 
 And remember, I do not necessarily endorse everything I ask you to read - my goal is to challenge our thinking and instigate discussion.  
 
@@ -18,12 +12,11 @@ If you want to succeed, you will also need to work differently than you ever hav
 
 * Class time is for learning the big, important ideas. 
 * Homework time is for learning the details. 
-* DO NOT take notes while I'm talking or coding.  Trust me on this.  Take notes during the lab times instead.
+* DO NOT furiously take notes while I'm speaking.  Trust me on this.  Listen actively and just try to understand the big idea. Take notes for details during the lab times instead.
 * When I’m demonstrating something, your only job is to focus so that you can ask a question.
 * The code that I write in class is always available online for study and review.
 * You are free to jot down extra notes during the labs, during break times, and after class.
 * You *will* need to look up more details online. I will provide some helpful links on the course website, but there’s a thing now called Google.
-* Use the Aha! Board to your advantage, every day.
 
 
 **Consider The Following**
