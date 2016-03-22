@@ -12,4 +12,8 @@ If all goes well, by the end of class today, you should be able to:
 * Create static HTML pages inside of a live web application
 * Realize that everything Jeff says is probably a movie reference or a lame pun/joke
 
+**Links From Today**
+
+* http://www.fontsquirrel.com/ and https://www.google.com/fonts
+* 
 
