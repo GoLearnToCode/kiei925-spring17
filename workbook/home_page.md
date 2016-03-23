@@ -51,7 +51,7 @@ Try refreshing your browser.  You should see a big error message.  That's good! 
 
 **STEP 3: The View**
 
-When we created the route `pages#home`, we actually promised a resource named `pages` (which we now have) and an HTML file named `app/views/pages.home.html.erb` which we don't have yet.  So add a file by that name, and add this code into it:
+When we created the route `pages#home`, we actually promised a resource named `pages` (which we now have) and an HTML file named `app/views/pages/home.html.erb` which we don't have yet.  So add a file by that name, and add this code into it:
 
 ```
 <h1>Hello, World!</h1>
