@@ -14,24 +14,26 @@ Then, you can build those resources in code.  Here's how to build a single resou
 
 For this example, we pretend that we are building [IMDB](http://imdb.com).
 
-STEP 0: Pick a Name for Your Resource
+### Creating a New Resource in Rails
 
-IMDB has lots of resources: movies, reviews, users, actors, directors, showtimes, ....
+**STEP 0: Pick a Name for Your Resource**
 
-Let's start with _movies_. We use the plural form, _movies_, not the singular _movie_, when we're talking about resources.
+IMDB has lots of resources: movies, reviews, users, actors, directors, showtimes. Notice that we always use the plural, _actors_, not the singular _actor_, when we're talking about resources.
+
+Let's create the _movies_ resource. 
 
 
-STEP 1: The Route
+**STEP 1: The Route**
 
 In your config/routes.rb file:
 
 `resources :movies`
 
-This will allow your users to access a list of movies at `http://yourdomain.com/movies`.  Try it now.  
+This will allow your users to access a list of movies at `http://example.com/movies`.  Try it now.  
 
 Did you get a big red error message complaining about an "uninitialized constant"?  That's good. You're ready for Step 2.
 
-STEP 2: The Controller
+**STEP 2: The Controller**
 
 Every resource needs a controller, which consists of a controller class and a folder to contain the HTML files for the resource. 
 
@@ -53,11 +55,15 @@ end
 
 Try refreshing your browser. You should see a big error message saying something about a "missing template". That's good! It means it's time for Step 3.
 
-STEP 3: The View
+**STEP 3: The View**
 
 When we add the route `resources :movies`, we actually promised a resource named `movies` (which we now have) and an HTML file named `app/views/movies/index.html.erb` which we don't have yet. So add a file by that name, and add this code into it:
 
 <h1>Movies</h1>
 
 Try refreshing your browser once more for `/movies`. You should see "Movies" in big, bold letters. If not, read the error message as best you can and review the steps above.
+
+### Adding More Views and Actions
+
+You can do lots of things with resources: see them, add them, delete them, and so on.  Rails provides resource-specific URLs and actions for all of these things.  For all gory details, go to <%= workbook_link 'RESTful Resources in Rails', :rest_rails %>.
 
