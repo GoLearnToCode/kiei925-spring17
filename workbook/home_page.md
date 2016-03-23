@@ -7,7 +7,7 @@ When creating your site's home page, you have three choices.
 3. Invent an artifical resource and use it as your home page resource
 1. Adopt an existing resource (see below if you don't know anything about _resources_ yet)
 
-If you need to learn more about resources, go to <%= workbook_link 'Creating Resources in Rails', :resources %>.
+If you need to learn more about resources, go to <%= workbook_link 'Creating Resources in Rails', :resource %>.
 
 ### Option 1: Invent an Artifical Resource
 
