@@ -10,17 +10,13 @@ A resource is:
 
 You must think of the resources that you're offering to your users.
 
-Then, you can build those resources in code.  Here's how to build a single resource.
+Pretend that we are building [IMDB](http://imdb.com).  IMDB has lots of resources: movies, reviews, users, actors, directors, showtimes. Notice that we always use the plural, _actors_, not the singular _actor_, when we're talking about resources.
 
-For this example, we pretend that we are building [IMDB](http://imdb.com).
+Let's create the _movies_ resource. 
+
 
 ### Creating a New Resource in Rails
 
-**STEP 0: Pick a Name for Your Resource**
-
-IMDB has lots of resources: movies, reviews, users, actors, directors, showtimes. Notice that we always use the plural, _actors_, not the singular _actor_, when we're talking about resources.
-
-Let's create the _movies_ resource. 
 
 
 **STEP 1: The Route**
@@ -57,7 +53,7 @@ Try refreshing your browser. You should see a big error message saying something
 
 **STEP 3: The View**
 
-When we add the route `resources :movies`, we actually promised a resource named `movies` (which we now have) and an HTML file named `app/views/movies/index.html.erb` which we don't have yet. So add a file by that name, and add this code into it:
+Way back in Step 1, when we added the route `resources :movies`, we actually promised a resource named `movies` (which we now have) and an HTML file named `app/views/movies/index.html.erb` which we don't have yet. So add a file by that name, and add this code into it:
 
 ```
 <h1>Movies</h1>
