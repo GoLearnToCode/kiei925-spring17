@@ -59,7 +59,7 @@ Try refreshing your browser. You should see a big error message saying something
 
 When we add the route `resources :movies`, we actually promised a resource named `movies` (which we now have) and an HTML file named `app/views/movies/index.html.erb` which we don't have yet. So add a file by that name, and add this code into it:
 
-<h1>Movies</h1>
+`<h1>Movies</h1>`
 
 Try refreshing your browser once more for `/movies`. You should see "Movies" in big, bold letters. If not, read the error message as best you can and review the steps above.
 
