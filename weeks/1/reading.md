@@ -14,12 +14,6 @@ This class works differently than any class you’ve ever taken before.
 * The code that I write in class is always available online for study and review.
 * You *will* need to look up more details online. I will provide some helpful links on the course website, but there’s a thing now called Google.
 
-
-> **Consider The Following...**
->
-> Professional developers make their money by knowing how to invent unique solutions through research, 
-> not by memorizing solutions. They have learned how to think. Not how to copy.   
-
 ## Secrets of the Ninjas
 
 - Be curious about everything.
