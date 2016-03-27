@@ -15,11 +15,11 @@ This class works differently than any class you’ve ever taken before.
 * You *will* need to look up more details online. I will provide some helpful links on the course website, but there’s a thing now called Google.
 
 
-**Consider The Following**
-
-Professional developers make their money by knowing how to invent unique solutions through research, not by memorizing past solutions. They have learned how to think. Not how to copy.   
-
-_What should you learn now, so that you can continue to learn more on your own?_
+> **Consider The Following...**
+>
+> Professional developers make their money by knowing how to invent unique solutions through research, not by memorizing past > solutions. They have learned how to think. Not how to copy.   
+>
+>What should you learn now, so that you can continue to learn more on your own?
 
 ## Secrets of the Ninjas
 
