@@ -8,8 +8,6 @@ And remember, I do not necessarily endorse everything I ask you to read - my goa
 
 This class works differently than any class you’ve ever taken before.
 
-If you want to succeed, you will also need to work differently than you ever have before.
-
 * Class time is for learning the big, important ideas. Homework time is for learning the details. 
 * DO NOT furiously take notes while I'm speaking.  Trust me on this.  Listen actively and just try to understand the big idea. Take notes for details during the lab times instead.
 * When I’m demonstrating something, your only job is to focus so that you can ask a question.
@@ -32,9 +30,6 @@ _What should you learn now, so that you can continue to learn more on your own?_
 - When you Google: try to use specific, uncommon words; or, paste an entire error message.
 - Read error messages.
 - Wikipedia is actually very reliable for technical topics.  Use it!
-- Filter results to only the past year or shorter (click Search Tools on the right side).
-- You can trust answers from rubyonrails.org, ruby-lang.org, and stackoverflow.com.
-- Read error messages.
 - Just Try It. You will learn more by experimenting than by thinking or searching or reading. 
 - Write as much code as you can. Make up tiny problems for yourself and try to solve them.
 - Read error messages.
