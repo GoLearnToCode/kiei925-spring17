@@ -14,6 +14,6 @@ If all goes well, by the end of class today, you should be able to:
 
 **Links From Today**
 
-* http://www.fontsquirrel.com/ and https://www.google.com/fonts
-* 
+- 
+-
 
