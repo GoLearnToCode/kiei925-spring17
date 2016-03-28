@@ -6,8 +6,11 @@
 2. Install the following Chrome Extensions: _ColorZilla_, _JSONView_, and _WhatFont_
 1. Draw a wireframe of a simplified version of Etsy.com's home page.  Think about a _minimal home page_, the core offering, and the simplest implementation necessary to gain traction. Take a picture of your wirefame.
 3. Create a new Cloud9 workspace:
-  - Name it `hw1`
-  - Use the Clone option and specify ```http://github.com/kiei925-spring16/etsy1```. 
+  - Name it `hw1`.  
+  - You can leave the Description field blank.
+  - Use the **Clone from Git** option and specify ```http://github.com/kiei925-spring16/etsy1```
+  - Select the **Ruby on Rails** template
+  - Click "Create Workspace"
 2. Once inside the `hw1` project, go to the Terminal window and run this command: `bundle install`
 3. Finall, the fun part: replace the default home page with your own, based on your wireframe (see hints below).  Your finished HTML does not need to exactly match your wireframe, but it should be obvious that the wireframe guided your implementation.
 3. Upload your wireframe into your project. Save it into your project as `wireframe.png` (or some other image format).
