@@ -11,6 +11,7 @@
 2. Once inside the `hw1` project, go to the Terminal window and run this command: `bundle install`
 3. Finall, the fun part: replace the default home page with your own, based on your wireframe (see hints below).  Your finished HTML does not need to exactly match your wireframe, but it should be obvious that the wireframe guided your implementation.
 3. Upload your wireframe into your project. Save it into your project as `wireframe.png` (or some other image format).
+4. Share your workspace with Garrett. Click the "Share" button at the top of your workspace, and enter his username: `garrettqmartin8`.  If it's not obvious how to do that, [watch this quick video](https://docs.c9.io/docs/share-a-workspace).
 4. Do this last: somewhere on your home page, use HTML to display your estimate and actual time; for example:
 
 ``` html
@@ -34,11 +35,5 @@ Of course, use your own values instead of the numbers shown above.  Your grade d
     - Create a folder named `app/views/pages`
     - Create a file named `app/views/pages/home.html.erb` to contain your HTML code
     - Peek at the code we wrote in class for an example of how to create a route in `config/routes.rb`
-      
-    
-
-    
-
-
 
 
