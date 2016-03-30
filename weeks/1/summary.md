@@ -14,6 +14,7 @@ If all goes well, by the end of class today, you should be able to:
 
 **Links From Today:**
 
-* 
-* 
+* The code we wrote in class is available on GitHub: https://github.com/kiei925-spring16/week1
+* We didn't talk about it, but there are many free webfonts available at [FontSquirrel](https://www.fontsquirrel.com/) and [Adobe Edge](https://edgewebfonts.adobe.com/).
+
 
