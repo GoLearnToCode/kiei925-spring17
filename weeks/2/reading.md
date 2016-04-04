@@ -32,7 +32,7 @@ we get two URLs:
 |index|`/movies`|
 |show|`/movies/:id`|
 
-That `:id` is a placeholder, because we don't know what will go there - anything can go there.  We can find out what it is inside of a view like this:
+That `:id` is a placeholder, because we don't know what will go there at the time we write our code.  When our page is actually displayed, we can use the `params` hash to "grab" the actual value from the address bar:
 
 ```
 <p>You are trying to view the movie identified by: <%= params["id"] %></p>
