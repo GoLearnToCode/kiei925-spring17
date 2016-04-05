@@ -28,7 +28,7 @@ Here's an example that summarizes all of the above.  Given the following line in
 we get two "actions" (an action is a URL-to-HTML connection):
 
 |Action Name|View File|URL Path|
-|----|--------|
+|----|------|--------|
 |index|`app/views/movies/index.html.erb`|`/movies`|
 |show|`app/views/movies/show.html.erb`|`/movies/:id`|
 
