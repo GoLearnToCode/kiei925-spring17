@@ -12,3 +12,4 @@ And then watch the very short TED talk on this page: http://www.tomwujec.com/des
 
 Here's a quick cheat sheet to the various commands and concepts we covered in class.
 
+* There are a couple of ways to experiment with Ruby.  One way is to use the **rails console** (start it from a Terminal window).  You can assign variables and try to make expressions.  Variable values are thrown away when you exit.  You can type **exit** when you're done.  
