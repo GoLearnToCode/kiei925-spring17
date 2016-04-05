@@ -13,19 +13,25 @@
   - Click "Create Workspace"
 2. Once inside the `hw2` project, go to the Terminal window and run this command: `bundle`
 3. Run the project so that you can see the home page in your browser.  It should look like a simplified, static version of the Etsy home page.
+4. Share your workspace with Garrett. Click the "Share" button at the top of your workspace, and enter his username: `garrettqmartin8`.  If it's not obvious how to do that, [watch this quick video](https://docs.c9.io/docs/share-a-workspace).
+
 
 **Create A Data-Driven Resource**
 
 1. Create a resource named `listings` (if you're not sure what that means, go read <%= workbook_link 'Creating a New Resource', :resource %>).
-2. Support the following url: `/listings` and use the `Etsy` data class to help generate the HTML based on the data you receive.  It should end up looking exactly like the home page.  See the 'Etsy Data' hints below.  
+2. Support the `index` action (the url `/listings`) by using the `Etsy` data class to help generate the HTML.  
+  - It should end up looking exactly like the home page, but your HTML should be generated as much as possible by embedded Ruby code that uses the `Etsy` class.
+  - See the 'Hints' section below for more information on how to use the `Etsy` class that I've prewritten for you.  
 3. Clicking on an item's title or photo should navigate the browser to `/listings/{something}`, where `{something}` is the `listing-id` of the item that was clicked.
-3. Support the following url: `/listings/{something}` and have it display the details page for the given listing.  Look at a real Etsy listing page for inspiration, but you _need only create a very, very simplified version_, one that only displays the data provided by the `Etsy` data class.  You do not need to worry about any fancy CSS.  Just make sure the data shown is correct for the given listing.
+3. Support the following url: `/listings/{something}` and have it display the details page for the given listing.
+  - It's your job to figure out what data is available to you from the `Etsy` class and display all of it on the page somewhere.  
+  - Look at a [real Etsy listing page for inspiration](https://www.etsy.com/listing/244820198/walnut-bowl-w0162), but you need only create a _very, very simplified version_.  You do not need to worry about any fancy CSS.  
+  - The main idea is to make sure the data shown is correct for the given listing as shown in the URL address bar.
 4. Rewrite the route for the home page so that the same view you used for `/listings` is also used as the home page.  
 
-**Final Steps**
+**Final Step**
 
 4. Do this last: somewhere on the home page, use HTML to display your estimate and actual time.  Your grade does NOT depend on your estimate vs. actual time.  It is for your information only.
-4. Share your workspace with Garrett. Click the "Share" button at the top of your workspace, and enter his username: `garrettqmartin8`.  If it's not obvious how to do that, [watch this quick video](https://docs.c9.io/docs/share-a-workspace).
 
 **GRADING**
 
