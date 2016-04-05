@@ -27,6 +27,7 @@
   - It's your job to figure out what data is available to you from the `Etsy` class and display all of it on the page somewhere.  
   - Look at a [real Etsy listing page for inspiration](https://www.etsy.com/listing/244820198/walnut-bowl-w0162), but you need only create a _very, very simplified version_.  You do not need to worry about any fancy CSS.  
   - The main idea is to make sure the data shown is correct for the given listing as shown in the URL address bar.
+  - Clicking on the photo should take the user to the real Etsy listing page.
 4. Rewrite the route for the home page so that the same view you used for `/listings` is also used as the home page.  
 
 **Final Step**
