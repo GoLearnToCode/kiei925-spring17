@@ -16,7 +16,7 @@
 
 **Create A Data-Driven Resource**
 
-1. Create a resource named `listings`.
+1. Create a resource named `listings` (hint: <%= workbook_link 'Creating a New Resource', :resource %>).
 2. Support the following url: `/listings` and use the `Etsy` data class to help generate the HTML based on the data you receive.  It should end up looking exactly like the home page.  See the 'Etsy Data' hints below.  
 3. Clicking on an item's title or photo should navigate the browser to `/listings/{something}`, where `{something}` is the `listing-id` of the item that was clicked.
 3. Support the following url: `/listings/{something}` and have it display the details page for the given listing.  Look at a real Etsy listing page for inspiration, but you _need only create a very, very simplified version_, one that only displays the data provided by the `Etsy` data class.  You do not need to worry about any fancy CSS.  Just make sure the data shown is correct for the given listing.
