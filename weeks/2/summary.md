@@ -13,12 +13,3 @@
 * Customize the contents of a page based on URL values
 * Name the two URLs that are generateed by a single `resources` route command
 
-### Terms from Today
-
-* Variable
-* Hash
-* Array
-* Embedded Ruby
-* Loop
-* `.each`
-* Resource
