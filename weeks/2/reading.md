@@ -25,14 +25,14 @@ Here's an example that summarizes all of the above.  Given the following line in
 
 ``` resources :movies ```
 
-we get two URLs:
+we get two "actions" (an action is a URL-to-HTML connection):
 
-|Name|URL Path|
+|Action Name|View File|URL Path|
 |----|--------|
-|index|`/movies`|
-|show|`/movies/:id`|
+|index|`app/views/movies/index.html.erb`|`/movies`|
+|show|`app/views/movies/show.html.erb`|`/movies/:id`|
 
-That `:id` is a placeholder, because we don't know what will go there at the time we write our code.  When our page is actually displayed, we can use the `params` hash to "grab" the actual value from the address bar:
+That `:id` is a placeholder, so that we can match the URL based on a _pattern_ rather than predefined, explicit characters. we don't know what will go there at the time we write our code.  When our page is actually displayed for a particular user, we can use the `params` hash to "grab" the actual value from the address bar:
 
 
 ```
