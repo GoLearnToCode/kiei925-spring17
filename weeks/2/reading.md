@@ -27,14 +27,14 @@ Here's an example that summarizes all of the above.  Given the following line in
 
 we get two "actions" (an action is a URL-to-HTML connection):
 
-|Action Name|View File|URL Path|
+|Action Name|URL Path|View File|
 |----|------|--------|
-|index|`app/views/movies/index.html.erb`|`/movies`|
-|show|`app/views/movies/show.html.erb`|`/movies/:id`|
+|index|`/movies`|`app/views/movies/index.html.erb`|
+|show|`/movies/:id`|`app/views/movies/show.html.erb`|
 
 That `:id` is a placeholder, so that we can match the URL based on a _pattern_ rather than predefined, explicit characters. we don't know what will go there at the time we write our code.  When our page is actually displayed for a particular user, we can use the `params` hash to "grab" the actual value from the address bar:
 
 
 ```
-<p>You are trying to view the movie identified by: <%= params["id"] %></p>
+<p>You are trying to view the movie identified by: <%%= params["id"] %></p>
 ```
