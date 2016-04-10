@@ -63,7 +63,7 @@ HINTS:
 * Use the up/down arrows to repeat commands.
 * Type the name of a Model to see what columns it has.
 
-Loading development environment (Rails 4.0.4)
+Loading development environment (Rails 4.2.4)
 irb(main):001:0>
 ```
 
