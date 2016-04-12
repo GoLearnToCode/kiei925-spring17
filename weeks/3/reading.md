@@ -24,7 +24,9 @@
 class MoviesController < ApplicationController
 
   def show
-    
+    if params[:id] == "123"
+      redirect_to "http://www.google.com"
+    end
   end
 
 end
