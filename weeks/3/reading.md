@@ -11,23 +11,3 @@
 * Using Ruby, you can use your model to create new rows in your tables, read rows, update rows, and delete rows.  
 * We can use Ruby code to add intelligence to our views.  A typical `if` statement looks like this:
 
-``` ruby
-# Note the double equal sign!
-<%% if password == "swordfish" %>
-  <p>You said the magic word!</p>
-<%% end %>
-```
-
-* We can add intelligence to our controllers by defining controller methods:
-
-``` ruby
-class MoviesController < ApplicationController
-
-  def show
-    if params[:id] == "123"
-      redirect_to "http://www.google.com"
-    end
-  end
-  
-end
-```
