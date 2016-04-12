@@ -18,3 +18,11 @@
 <%% end %>
 ```
 
+* We can add intelligence to our controllers by defining controller methods:
+
+``` ruby
+class MoviesController < ApplicationController
+
+  
+end
+```
