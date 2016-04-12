@@ -14,10 +14,17 @@
 * We can use Ruby code to add intelligence to our views.  A typical `if` statement looks like this:
 
 ``` ruby
-# Note the double equal sign!
+# Notice the double equal sign!
 <%% if password == "swordfish" %>
   <p>You said the magic word!</p>
 <%% end %>
+
+# Notice the strange != sign!
+<%% if password != "swordfish" %>
+  <p>Nah-ah-ah! You didn't say the magic word!</p>
+<%% end %>
+
+
 ```
 
 * We can add intelligence to our controllers by defining controller methods:
