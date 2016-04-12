@@ -13,9 +13,9 @@
 
 ``` ruby
 # Note the double equal sign!
-<% if password == "swordfish" %>
+<%% if password == "swordfish" %>
   <p>You said the magic word!</p>
-<% end %>
+<%% end %>
 ```
 
 * We can add intelligence to our controllers by defining controller methods:
