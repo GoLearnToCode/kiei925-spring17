@@ -8,6 +8,7 @@
 * Sort with `.order`
 * Model one-to-many associations by using foreign keys
 * Write our first controller method in Ruby to implement a redirect
+* Learn how to use an `if` statement to add decision-making powers to our app.
 
 
 *If all goes well, by the end of class today, you should be able to:*
