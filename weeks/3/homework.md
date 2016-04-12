@@ -34,12 +34,7 @@ HINT: You should not have any references to the old `Etsy` class anymore when yo
 
 4. Do this last: somewhere on the home page, use HTML to display your estimate and actual time.  Your grade does NOT depend on your estimate vs. actual time.  It is for your information only.
 
-**GRADING**
-
-- 3 points: Proper definitions for both models, at least 2 Shop rows created, each with at least 2 associated Listing rows.
-- 3 points: Data-driven implementations of both `index` and `show` views, including displaying the shop name on the `show` page and thumbnail images of all of the shop's listings.
-- 3 points: Redirection to home page if an invalid parameter is given to the `show` page.
-- 1 point: The home page includes your estimate and actual. (Remember, your time values are not graded; you get a point for simply including the proper HTML to display them) **AND** you have contributed at least one project idea to the Google Sheet.
+---
 
 **Business Rules**
 
@@ -48,3 +43,12 @@ HINT: You should not have any references to the old `Etsy` class anymore when yo
 * A listing has a title, price, URL to a photo, URL to a real Etsy listing, and the number of users who have "favorited" it.
 * Prices must be stored in the database as an integer number of cents; for example, a price of $10.00 should be stored as the integer 1000.  When displayed to the user, prices should be formatted as a regular currency amount ("$10.00").
 * Listings should be identified by our database system, and will no longer reference the "real" Etsy listing id. 
+
+---
+
+**GRADING**
+
+- 3 points: Proper definitions for both models, at least 2 Shop rows created, each with at least 2 associated Listing rows.
+- 3 points: Data-driven implementations of both `index` and `show` views, including displaying the shop name on the `show` page and thumbnail images of all of the shop's listings.
+- 3 points: Redirection to home page if an invalid parameter is given to the `show` page.
+- 1 point: The home page includes your estimate and actual. (Remember, your time values are not graded; you get a point for simply including the proper HTML to display them) **AND** you have contributed at least one project idea to the Google Sheet.
