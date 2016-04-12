@@ -15,7 +15,7 @@
 
 **Contribute a Project Idea**
 
-1. Go to this Google Sheet and add at least one project idea, hopefully two or three.  You're not obligated to build your idea as your final project.  This is just a brainstorming session for all of us.
+1. Go to [this Google Sheet](https://docs.google.com/spreadsheets/d/1TRq-u4ohBstllKNw_Hw11hlDhFhjmRPAzje9jaNnJZM/edit?usp=sharing) and add at least one project idea, hopefully two or three.  You're not obligated to build your idea as your final project.  This is just a brainstorming session for all of us.
 
 **Create A Database-Backed Model**
 
