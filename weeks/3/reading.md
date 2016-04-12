@@ -11,3 +11,10 @@
 * Using Ruby, you can use your model to create new rows in your tables, read rows, update rows, and delete rows.  
 * We can use Ruby code to add intelligence to our views.  A typical `if` statement looks like this:
 
+``` ruby
+# Note the double equal sign!
+<%% if password == "swordfish" %>
+  <p>You said the magic word!</p>
+<%% end %>
+```
+
