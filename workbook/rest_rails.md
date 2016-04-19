@@ -22,12 +22,12 @@ It turns out that, in practice, there are exactly seven things we need to build 
 |Action  |HTTP Method/Verb|URL            |
 |--------|----------------|---------------|
 |index   |GET             |/movies        |
-|show    |GET             |/movies/1      |
+|show    |GET             |/movies/:id      |
 |new     |GET             |/movies/new    |
 |create  |POST            |/movies        |
-|edit    |GET             |/movies/1/edit |
-|update  |PATCH           |/movies/1      |
-|destroy |DELETE          |/movies/1      |
+|edit    |GET             |/movies/:id/edit |
+|update  |PATCH           |/movies/:id      |
+|destroy |DELETE          |/movies/:id      |
 
 We can support all seven of these actions in our Rails application with just one line of code!
 
