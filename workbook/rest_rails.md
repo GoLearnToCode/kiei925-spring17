@@ -19,7 +19,7 @@ It turns out that, in practice, there are exactly seven things we need to build 
 * An *update* action that actually updates the movie based on user input
 * A *destroy* action that deletes an existing movie
 
-|Action  |HTTP Method/Verb|URL            |
+|Action  |HTTP Method (Verb)     |URL (Noun)            |
 |--------|----------------|---------------|
 |index   |GET             |/movies        |
 |show    |GET             |/movies/:id      |
@@ -37,8 +37,11 @@ In ```routes.rb```,
 resources :movies
 ```
 
-Prove that it worked, by entering at the command prompt:
+If you use `<%%= link_to %>` and `<%%= bootstrap_form_for %>`, the proper HTTP Method is always selected automatically for you, except for the `destroy` action.  To trigger the `destroy` action, you need to append a special option in your `<%%= link_to %>` like this:
 
 ```
-rake routes
+<%%= link_to "Delete This Movie", "/movies/#{movie.id}", method: :delete %>
 ```
+
+Watch your server log to see the difference!
+
