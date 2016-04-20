@@ -18,14 +18,16 @@
 
 **Create A Full Database-Backed Resource**
 
-Your job is to modify the `Listings` resource so that users can view, add, delete, and update everything.
+Start by perusing the code that's already there.  Look at the routes, the Listings controller, and the views.
 
-1. **CREATE**. On the listings page (`index`) add a link that says "Add New Listing".  This link should navigate to `/listings/new` which should display a form.  Users should be able to complete the form and click a Submit button, which should add the new listing to the database and redirect the user back to the listings page.
-2. **READ**.  Allow users to view all listings as well as the details for a single listing.  This is already completed for you! Woohoo! :-)
-3. **UPDATE** From the details page of a listing, add a link that says "Edit This Listing."  This link should navigate to `/listings/:id/edit`, where `:id` is the database `id` of the listing.  The view should be called `edit`, and it should display form that is prefilled with data from the listing.  Users should be able to complete the form and click a Submit button, which should update the appropriate listing in the database, and then (finally) redirect the user back to the `show` page for that listing. 
+Your job is to modify the `Listings` resource (controller and views) so that users can view, add, delete, and update everything.
+
+1. **CREATE**. On the listings page (`index`) add a link that says "Add New Listing".  This link should navigate to `/listings/new` which should display a form using the `bootstrap_form_for` structure.  Users should be able to complete the form and click a Submit button, which should add the new listing to the database and redirect the user back to the listings page.
+2. **READ**.  Allow users to view all listings as well as the details for a single listing.  This has already been completed for you! Woohoo! :-)
+3. **UPDATE** From the details page of a listing, add a link that says "Edit This Listing."  This link should navigate to `/listings/:id/edit`, where `:id` is the database `id` of the listing.  The view should be called `edit.html.erb`, and it should display form that is prefilled with data from the listing.  Users should be able to complete the form and click a Submit button, which should update the appropriate listing in the database, and then (finally) redirect the user back to the `show` page for that listing. (It's your job to figure out how to receive the form submission, update the appropriate row in the database, and then redirect).
 3. **DELETE** From the details page of a listing, add a link that says "Delete This Listing."  This link should trigger a controller action named `destroy`, which should delete the listing from the database.  It should also redirect the user back to the `index` page. (HINT: you'll need to use the `<%%= link_to ....., method: :delete %>` syntax in order to properly trigger the `destroy` action.
 
-*Just a reminder: you don't need to add/edit/delete any Shop rows, only Listings.*
+*Just a reminder: you are only required to modify the Listings resource.  You don't need to add/edit/delete any Shop rows.*
 
 **Final Step**
 
@@ -37,4 +39,4 @@ Your job is to modify the `Listings` resource so that users can view, add, delet
 - 3 points: Proper implementation of the **CREATE** step.
 - 3 points: Proper implementation of the **UPDATE** step.
 - 3 points: Proper implementation of the **DELETE** step.
-- 1 point: The home page includes your estimate and actual. (Remember, your time values are not graded; you get a point for simply including the proper HTML to display them) **AND** you have contributed at least one project idea to the Google Sheet.
+- 1 point: The home page includes your estimate and actual. (Remember, your time values are not graded; you get a point for simply including the proper HTML to display them).
