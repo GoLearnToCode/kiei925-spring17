@@ -29,6 +29,6 @@ Start by perusing the code that's already there.  Look at the routes, controller
 **GRADING**
 
 - 4 points: Proper implementation of association methods.
-- 4 points: Using associatin methods wherever possible.
+- 4 points: Applying association methods wherever possible.
 - 1 point: The home page includes your estimate and actual. (Remember, your time values are not graded; you get a point for simply including the proper HTML to display them).
 
