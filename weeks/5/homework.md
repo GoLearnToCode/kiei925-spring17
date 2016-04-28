@@ -11,13 +11,13 @@ This is the last homework assignment of the quarter.  Isn't this sad? :-(
 
 **Connect the Models**
 
-Start by perusing the code that's already there.  Look at the routes, controllers, models, and views.
+Start by perusing the code that's already there.  Look at the routes, controllers, models, and views.  Notice the new `Shops` link in the navbar.
 
 
 
 1. **Identify Associations**. Use `has_many` and `belongs_to` in your model files to build declarative relationships between them.
 
-2. **Use Association Methods**.  Modify all of the views and controllers by removing as many queries as you can, and replacing them with association methods.  For example, instead of code like `Director.find_by(id: @movie.director_id)`, I could write `@movie.director` by first implementing the proper model associations.
+2. **Use Association Methods**.  Modify the views by removing as many queries as you can, and replacing them with association methods.  For example, instead of code like `Director.find_by(id: @movie.director_id)`, I could write `@movie.director` by first implementing the proper model associations.  Hint: There are queries that can be rewritten in the following actions: `shops#index`, `shops#show`, and `listings#show`.
 
 *Just a reminder: from the user's point of view, the application behavior should not change.  Only the code.*
 
