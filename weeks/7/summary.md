@@ -1,5 +1,5 @@
 # Goals
 
-* Continue with validations and error handling
-* Learn about the "flash" - alert and notice
+* Model validations and error handling
+* Learn about the "flash" hash - alert and notice
 * User authentication and authorization
