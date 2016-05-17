@@ -13,5 +13,5 @@ sort_limit: "Cheat Sheet: Sorting and Limiting Data"
 associations: "Cheat Sheet: Model Associations"
 rest: "Cheat Sheet: Resource-based (RESTful) Routing"
 rest_rails: "Cheat Sheet: RESTful Routing in Rails"
-heroku: `Deploying with Heroku`
+heroku: "Deploying with Heroku"
 
