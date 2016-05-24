@@ -6,3 +6,5 @@
 
 
 OpenWeatherMap API KEY: 4ce6f502d38ddae567bf1702b05e168c
+
+Class video: https://youtu.be/BAY_EbmwEGM
