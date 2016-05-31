@@ -17,7 +17,7 @@ Please send an email to Garrett when your project is ready for review; include t
 Projects can achieve a maximum of 25 points.
 
 1. Each requirement listed below is worth up to 4 points. You may choose up to 5 requirements, for a total of 20 points.
-2. Up to another 5 points can be awarded based on the instructor's subjective evaluation, based on code readability and overall execution, which includes usability, visual styling, adhering to best practices in modern software development (e.g. DRY) by eliminating duplicate code in your application through the use of view partials and before_actions.
+2. Up to another 5 points can be awarded based on the instructor's subjective evaluation, based on code readability and overall execution, which includes usability, visual styling, and originality.
 
 ### Requirements Menu
 
