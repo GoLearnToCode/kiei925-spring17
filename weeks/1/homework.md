@@ -9,6 +9,7 @@ Please follow these instructions carefully.
 1. Draw a wireframe of a simplified version of Etsy.com's home page.  Think about a _minimal home page_, the core offering, and the simplest implementation necessary to gain traction. Take a picture of your wirefame.
 
 **Part B: Build It**
+
 3. Create a new Cloud9 workspace:
   - Name it `hw1`.  
   - You can leave the Description field blank.
