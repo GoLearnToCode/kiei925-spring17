@@ -8,7 +8,7 @@
 3. Create a new Cloud9 workspace:
   - Name it `hw1`.  
   - You can leave the Description field blank.
-  - Use the **Clone from Git** option and specify ```http://github.com/kiei925-spring16/etsy1```
+  - Use the **Clone from Git** option and specify ```http://github.com/kiei925-winter17/etsy1```
   - Select the **Ruby on Rails** template
   - Click "Create Workspace"
 2. Once inside the `hw1` project, go to the Terminal window and run this command: `bundle install`
@@ -38,5 +38,3 @@ Of course, use your own values instead of the numbers shown above.  Your grade d
     - Create a folder named `app/views/pages`
     - Create a file named `app/views/pages/home.html.erb` to contain your HTML code
     - Peek at the code we wrote in class for an example of how to create a route in `config/routes.rb`
-
-
