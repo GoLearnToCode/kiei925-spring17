@@ -5,7 +5,7 @@ This is the last homework assignment of the quarter.  Isn't this sad? :-(
 **Prep Work**
 
 1. Before doing anything else, read through these instructions, and then jot down how long you estimate it will take you to do this homework. Keep track of how much time you spend on the homework this week.
-3. Create a new Cloud9 Ruby on Rails workspace named `hw5` based on ```http://github.com/kiei925-spring16/etsy5```
+3. Create a new Cloud9 Ruby on Rails workspace named `hw5` based on ```http://github.com/kiei925-winter17/etsy5```
 2. Once inside the `hw5` project, do whatever's necessary to get the app up and running.
 4. Share your workspace with Garrett. Click the "Share" button at the top of your workspace, and enter his username: `garrettqmartin8`.  
 
