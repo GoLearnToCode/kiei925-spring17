@@ -9,17 +9,12 @@ question_board: false
 # Then indent and provide label, url, and fa icon (optional)
 # The default icon is fa-cloud.
 sidebar:
-  
+
   -
     label: Syllabus
-    url: 'https://github.com/GoLearnToCode/kiei925-spring16/raw/master/files/KIEI-925-0-81_Spring2016.pdf'
+    url: 'https://github.com/GoLearnToCode/kiei925-spring16/raw/master/files/KIEI-925-0-80_Winter2017.pdf'
     icon: fa-list-ol
-  - 
-    label: Discussion
-    url: "https://canvas.northwestern.edu/courses/38522/discussion_topics"
+  -
+    label: Canvas
+    url: "https://canvas.northwestern.edu/courses/47675"
     icon: fa-comments
-  - 
-    label: Grades
-    url: "https://canvas.northwestern.edu/courses/38522/gradebook"
-    icon: fa-star-o
-  

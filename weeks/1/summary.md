@@ -9,13 +9,5 @@
 If all goes well, by the end of class today, you should be able to:
 
 * Draw a basic wireframe
-* Create static HTML pages inside of a live web application
-* Realize that everything Jeff says is probably a movie reference or a lame pun/joke
-
-**Links From Today:**
-
-* The code we wrote in class is available on GitHub: https://github.com/kiei925-spring16/week1
-* The slides are available under the "Visuals" tab in the top-right of this page.  You can right-click and select "Save As..." to save the deck to your computer if you prefer.  Just don't distribute over the internet.
-* We didn't talk about it, but there are many free webfonts available at [FontSquirrel](https://www.fontsquirrel.com/) and [Adobe Edge](https://edgewebfonts.adobe.com/).
-
-
+* Make your own HTML pages inside of a Rails application
+* Realize that everything Jeff says in class is a movie reference or a lame joke
