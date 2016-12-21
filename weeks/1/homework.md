@@ -40,8 +40,8 @@ Of course, use your own values instead of the numbers shown above.  Your grade d
 - The application layout file is `app/views/layouts.html.erb`
 - Your css goes in `app/assets/stylesheets/application.css` after all of the comments
 - You will need a Rails controller to represent your home page:
-    - Create a file named `app/controllers/products_controller`
-    - Peek at the code we wrote in class for an example of the Ruby code in your controller file
+    - Create a file named `app/controllers/products_controller.rb`
+    - Peek at the code we wrote in class for an example of the Ruby code for your controller file
     - Create a folder named `app/views/products`
     - Create a file named `app/views/products/index.html.erb` to contain your HTML code
     - Peek at the code we wrote in class for how to code `config/routes.rb`
