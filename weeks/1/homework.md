@@ -31,7 +31,7 @@ Of course, use your own values instead of the numbers shown above.  Your grade d
 
 **GRADING**
 
-- 7 points:  A Rails application whose home page shows a simplified version of the Etsy home page.  Grading is based mostly on mechanics ("does it show a web page"), but decent CSS styling is expected.
+- 7 points:  A home page showing a simplified version of an Etsy-style home page.  Grading is based mostly on mechanics ("does it show a web page"), but decent CSS styling is expected.
 - 2 points: An uploaded wireframe.
 - 1 point: The home page includes your estimate and actual time. (The time values are not graded. You get a point for simply including the proper HTML to display them).
 
@@ -39,9 +39,4 @@ Of course, use your own values instead of the numbers shown above.  Your grade d
 
 - The application layout file is `app/views/layouts.html.erb`
 - Your css goes in `app/assets/stylesheets/application.css` after all of the comments
-- You will need a Rails controller to represent your home page:
-    - Create a file named `app/controllers/products_controller.rb`
-    - Peek at the code we wrote in class for an example of the Ruby code for your controller file
-    - Create a folder named `app/views/products`
-    - Create a file named `app/views/products/index.html.erb` to contain your HTML code
-    - Peek at the code we wrote in class for how to code `config/routes.rb`
+- Watch your server log for interesting things.  We will learn more about it next week.
