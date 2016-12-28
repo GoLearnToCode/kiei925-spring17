@@ -8,9 +8,9 @@ Late work will not be accepted.
 
 ### How To Turn In Your Project
 
-Your final project must be contained in a workspace named *final* or *project* in your C9 account. You can specify the `starting-point` repository as the initial clone url, or you can start with a blank Rails application and edit the Gemfile yourself.
+Your final project must be contained in a workspace named *final* in your C9 account. You should use the `starting-point` repository as the initial clone url.
 
-Please send an email to Garrett when your project is ready for review; include the name of your final project workspace and your live URL (if applicable).
+Please send a Canvas message to Garrett when your project is ready for review; include the name of your final project workspace and your live URL (if applicable).
 
 ### Web App Grading Criteria
 
