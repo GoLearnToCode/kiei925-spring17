@@ -8,13 +8,13 @@ When creating your site's home page, you have three choices.
 1. Adopt one of your app's resources to be used as your home page.
 1. Use a marketing page/sign up page as your home page.
 
-If you need to learn more about resources, go to <%= workbook_link 'Creating Resources in Rails', :resource %>.
-
 ### Option 1: Create a New Resource
 
 **STEP 1: The Route**
 
-Create your resource. Use the as a guide.
+Create your resource.
+
+If you need to learn more about how to create a resource in your app, go to <%= workbook_link 'Creating Resources in Rails', :resource %>.
 
 **STEP 2: Route for the home page**
 
