@@ -14,7 +14,7 @@ If you need to learn more about resources, go to <%= workbook_link 'Creating Res
 
 **STEP 1: The Route**
 
-Create your resource. Use the <%= workbook_link 'resource' %> as a guide.
+Create your resource. Use the as a guide.
 
 **STEP 2: Route for the home page**
 
