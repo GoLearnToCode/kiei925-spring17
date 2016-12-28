@@ -26,5 +26,6 @@ Pick any 3.  Each item is worth up to 7 points.
 - Write a 2-page paper related to startup programming and management.  Examples: agile vs traditonal project management; how this course has affected your understanding of building apps;  technology risks/pitfalls in early stage startups; etc.
 - Provide wireframes, user stories, and business rules for your entire application.
 - Authentication and authorization: Allow users to sign up, sign in, and sign out. Protect sensitive parts of your application through the use of a before_action. Implement role-based authorization and support at least two different types of users to access different parts of your application.
+- Implement Two-Factor Authentication via text or email.
 - Create a custom `rake` task to populate your database via CSV file, or load data from an external web service, etc. Note: Using the APIs we've used in class (Forecast.io, Spotify, OMDB) does not qualify unless it is materially enhances your project.
 - Deploy your app to Heroku.com. (If working in a group, only one live deployment is required.) Include your live URL in your submission (i.e. your email to Garrett) for full credit.
