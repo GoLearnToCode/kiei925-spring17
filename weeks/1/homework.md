@@ -18,7 +18,7 @@ Please follow these instructions carefully.
   - Click "Create Workspace"
 2. Once inside the `hw1` project, go to the Terminal window and run this command: `bundle install`
 3. Click the green **Run** button (or use the menu `Run > Run With > Ruby on Rails (stable + Ruby 2.2)`)
-4. Get the application running in your browser
+4. Get the application running in your browser.  You should see a temporary home page.
 3. Replace the built-in home page with your own code, based on your wireframe (see hints below).  Try to match the fonts and colors that you see on the real Etsy.com website. Your finished HTML does not need to exactly match your wireframe.
 3. Upload your wireframe photo into your project as `wireframe.png` (or some other image format).
 4. Somewhere on your home page, use HTML to display your estimate and actual time; for example:
