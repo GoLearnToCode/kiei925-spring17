@@ -15,12 +15,13 @@
 
 ### Terms from Today
 
+* Resource
 * Variable
 * Hash
 * Array
 * Embedded Ruby
+* `rails console`
 * Hash Key
 * Hash Value
 * Loop
 * `.each`
-* Resource
