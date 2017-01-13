@@ -28,7 +28,7 @@
   - Display a list of small, thumbnail images of all of the other  listings in the shop. Do not include the current listing's image in the list.
   - Clicking one of the thumbnail images should navigate directly to that listing's `show` page.
 
-HINT: You should not have any references to the old `Etsy` class anymore when you're done, and there shouldn't be any outbound links to etsy.com anymore.
+HINT: You should not have any references to the old `EtsyData` class anymore when you're done, nor should there be any direct links to etsy.com anymore.
 
 **Final Step**
 
@@ -42,7 +42,7 @@ HINT: You should not have any references to the old `Etsy` class anymore when yo
 * Every listing must belong to a shop.
 * A listing has a title, price, URL to a photo, URL to a real Etsy listing, and the number of users who have "favorited" it.
 * Prices must be stored in the database as an integer number of cents; for example, a price of $10.00 should be stored as the integer 1000.  When displayed to the user, prices should be formatted as a regular currency amount ("$10.00").
-* Listings should be identified by our database system, and will no longer reference the "real" Etsy listing id. 
+* Listings should be identified by our database system, and will no longer reference the "real" Etsy listing id.
 
 ---
 

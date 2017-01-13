@@ -20,13 +20,13 @@
 
 1. Create a resource named `listings` (if you're not sure how to do that, you should read the cheat sheet <%= workbook_link 'Creating a New Resource', :resource %>).
 2. Your `index` action (i.e. the url `/listings`) should show a list of items for sale.  I've provided a special Ruby data class named `Etsy` class to help generate the HTML.  
-  - Your `index` page should still look looking exactly like the home page. But your HTML should be mixed with embedded Ruby code that uses the `Etsy` data class.
-  - See the 'Hints' section below for more information on how to use the `Etsy` class that I've prewritten for you.  
+  - Your `index` page should still look looking exactly like the home page. But your HTML should be mixed with embedded Ruby code that uses the `EtsyData` class.
+  - See the 'Hints' section below for more information on how to use the `EtsyData` class that I've prewritten for you.  
 3. Clicking on an item's title or photo should navigate the browser to `/listings/{something}`, where `{something}` is the `listing-id` of the item that was clicked.
 3. Support the following url: `/listings/{something}` and have it display the details page for the given listing.
   - Use the filename `show.html.erb`
-  - It's your job to figure out what data is available to you from the `Etsy` class and display all of it on the page somewhere.  
-  - For inspiration, take a look at a [real Etsy listing page for inspiration](https://www.etsy.com/listing/244820198/walnut-bowl-w0162).  You need only create a _very, very simplified version_.  You do not need to worry about any fancy CSS.  
+  - It's your job to figure out what data is available to you from the `EtsyData` class and display all of it on the page somewhere.  
+  - For inspiration, take a look at a [real EtsyData listing page for inspiration](https://www.etsy.com/listing/471085558/walnut-bowl-w0481).  You need only create a _very, very simplified version_.  You do not need to worry about any fancy CSS.  
   - The primary goal is to make sure the data shown is correct for the given listing as shown in the URL address bar.
   - Clicking on the photo should take the user to the real Etsy listing page.
 4. Modify your `routes.rb` so that your `index` page is also the home page.
@@ -47,8 +47,8 @@
 
 I've already written the layout file and the temporary `pages` resource for you.  That's how the home page initially works.  Use the static home.html.erb as a guide for what you need to implement in `/listings`.
 
-I've also written a data class for you named `Etsy`.  Here's how you can use it from your code:
+I've also written a data class for you named `EtsyData`.  Here's how you can use it from your code:
 
-1. `Etsy.all` will return an array of items. It's up to you try to discover the content and structure of the items.
-2. `Etsy.find(something)` will return a single item whose listing-id matches the value you pass for `something`, i.e. `Etsy.find(1234)` will retrieve the data for listing #1234.
-3. Just FYI: the `Etsy` data class I've provided for you doesn't really connect to the real Etsy.com; it only knows the information for 4 specific listings.
+1. `EtsyData.all` will return an array of items. It's up to you try to discover the content and structure of the items.
+2. `EtsyData.find(something)` will return a single item whose listing-id matches the value you pass for `something`, i.e. `EtsyData.find(1234)` will retrieve the data for listing #1234.
+3. Just FYI: the `EtsyData` data class I've provided for you doesn't really connect to the real Etsy.com; it only knows the information for 4 specific listings.
