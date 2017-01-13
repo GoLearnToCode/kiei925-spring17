@@ -37,9 +37,8 @@
 
 **GRADING**
 
-- 2 points:  Proper routes for a `listings` resource.
-- 3 points: Data-driven implementation of `/listings`.
-- 3 points: Data-driven implementation of `/listings/{something}`.
+- 4 points: Data-driven implementation of `/listings`.
+- 4 points: Data-driven implementation of `/listings/{something}`.
 - 1 point: The view for `/listings` is also the home page.
 - 1 point: The home page includes your estimate and actual. (Remember, your time values are not graded; you get a point for simply including the proper HTML to display them).
 
