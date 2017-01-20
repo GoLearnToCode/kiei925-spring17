@@ -1,10 +1,12 @@
 **Goals:**
 
 - models
+- review of foreign keys
 - console CRUD
 - index and show page use database
-- new hash syntax
 - .find_by, .where, .order
+- nil
+- if
 
 **Prep:**
 
