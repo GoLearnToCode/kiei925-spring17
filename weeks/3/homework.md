@@ -19,8 +19,8 @@
 
 **Create A Database-Backed Model**
 
-1. Find the `db/models.yml` file and add two models: `Listing` and `Shop`.  Determine the attributes you will need to store in each model by reading the business rules section below.
-2. Use the `rails console` in a Terminal window to add at least two shops and four products.  Use the `etsy-data.json` file as a guide, or make up your own products!  Each shop should contain at least two products.
+1. Find the `db/models.yml` file and add two models: `Listing` and `Shop`.  Determine the attributes you will need for each model by reading the Business Rules section below.
+2. Use the `rails console` in a Terminal window to add at least two shops and four products.  Use the `etsy-data.json` file as a guide, or make up your own products!  Each shop must have at least two listings for sale.
 2. Modify the `index` view to be database-backed, by using the `Listing` model to help generate the HTML.  
 2. Modify the `show` view to be database-backed, by using the `Listing` and `Shop` models to help generate the HTML.  
   - Display the name of the associated Shop in or near the title in the `h1` element.
@@ -38,11 +38,11 @@ HINT: You should not have any references to the old `EtsyData` class anymore whe
 
 **Business Rules**
 
-* Every shop must have a unique name.
-* Every listing must belong to a shop.
-* A listing has a title, price, URL to a photo, URL to a real Etsy listing, and the number of users who have "favorited" it.
-* Prices must be stored in the database as an integer number of cents; for example, a price of $10.00 should be stored as the integer 1000.  When displayed to the user, prices should be formatted as a regular currency amount ("$10.00").
-* Listings should be identified by our database system, and will no longer reference the "real" Etsy listing id.
+1. Every shop must have a unique name.
+1. Every listing must belong to a shop.
+1. A listing has: a title, price, URL to a photo, URL to a real Etsy listing, and the number of users who have "favorited" it.
+1. Prices must be stored in the database as an integer number of cents; for example, a price of $10.00 should be stored as the integer 1000.  When displayed to the user, prices should be formatted as a regular currency amount ("$10.00").
+1. Listings should be identified by our database system, and will no longer reference the "real" Etsy listing id.
 
 ---
 
