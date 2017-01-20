@@ -49,8 +49,6 @@ Homework Preview
 
 ? Identify resources on your favorite websites
 
-One More Thing: Charles Babbage and Ada Lovelace
-
 
 
 Unresolved Pain:

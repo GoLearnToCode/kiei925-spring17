@@ -74,7 +74,11 @@ irb(main):001:0>
 Adding new rows to a model's data table is pretty easy.  We just use the `.create` method on our model class, and provide a *hash* of data that assigns cell values for each column in our new row.
 
 ``` ruby
-irb(main):001:0> Book.create(title: "Sherlock Holmes", author: "Arthur Conan Doyle")
+irb(main):001:0> b = Book.new
+irb(main):002:0> b.title = "Sherlock Holmes"
+irb(main):003:0> b.author = "Sir Arthur Conan Doyle"
+irb(main):004:0> b.author = "Sir Arthur Conan Doyle"
+irb(main):005:0> b.save
    (0.1ms)  begin transaction
   SQL (0.4ms)  INSERT INTO "books" ("title") VALUES (?)  [["title", "Sherlock Holmes"]]
    (1.1ms)  commit transaction
@@ -85,7 +89,7 @@ There are some important things to notice in the above example:
 
 * We don't have to provide values for every column.  If you don't provide a value for a `boolean` column, it will be assigned as `false`.  For all other column types, they will be `nil`.
 * The INSERT jargon you see above is Ruby talking to the database on our behalf, instructing it to insert a new row into the table.
-* The final line that starts with `=>` shows us the grand result of our `Book.create` instruction.  We've created a new `Book` object, and the database assigned it an `id` value of `3`.
+* The final line that starts with `=>` shows us the grand result of our `save` command.  We've created a new row for the `Book` model, and the database assigned it an arbitrary `id` value of `3`.
 
 ### Reading Rows of Data
 
