@@ -7,7 +7,7 @@
   - Name it `hw3`.  
   - You can leave the Description field blank.
   - Use the **Clone from Git** option and specify ```http://github.com/kiei925-winter17/etsy3```
-  - Select the **Ruby on Rails** template
+  - Select the **Ruby** template
   - Click "Create Workspace"
 2. Once inside the `hw3` project, go to the Terminal window and run this command: `bundle`
 3. Run the project and verify that you can view the home page in your browser.  You should be able to click on an item to get to its `show` page.
@@ -25,10 +25,13 @@
 2. Modify the `show` view to be database-backed, by using the `Listing` and `Shop` models to help generate the HTML.  
   - Display the name of the associated Shop in or near the title in the `h1` element.
   - Clicking the photo should no longer navigate to the real Etsy page.  (Instead, our app is finally becoming the "real" Etsy.)
-  - Display a list of small, thumbnail images of all of the other  listings in the shop. Do not include the current listing's image in the list.
+  - Display a list of small, thumbnail images of all of listings in the same shop.
   - Clicking one of the thumbnail images should navigate directly to that listing's `show` page.
 
 HINT: You should not have any references to the old `EtsyData` class anymore when you're done, nor should there be any direct links to etsy.com anymore.
+
+HINT 2: Be insanely curious. I wrote a lot of code for you.  Prove
+to yourself how everything you see in the browser has been made to appear.
 
 **Final Step**
 

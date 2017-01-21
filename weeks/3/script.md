@@ -46,8 +46,6 @@ Challenge: rewrite show page
 Demo 4: One-to-Many
   - Show director for a movie
 
-Demo 5: Conditionals
-  - do not show director line if director is nil
 
 
 Unresolved Pain:

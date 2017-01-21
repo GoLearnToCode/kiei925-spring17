@@ -11,19 +11,6 @@
 * All model class names start with a capital letter, e.g.: `Movie`, `Director`, `Studio`, `Actor`.  
 * You define your model data definition by filling out `db/models.yml` and then running `rake db:migrate` from the Terminal window. You can change what's in the `models.yml` file as much as you want.  Just be sure to `rake db:migrate` from a Terminal after each change.
 * Each column will correspond to an object attribute that you can retrieve using `dot notation`, i.e. `m.title` where `m` is a variable of the `Movie` class; in other words, it represents a single row from our `movies` database table.
-* We can use Ruby code to add intelligence to our views.  A typical `if` statement looks like this:
-
-``` ruby
-# Notice the double equal sign!
-<%% if password == "swordfish" %>
-  <p>You said the magic word!</p>
-<%% end %>
-
-# Notice the strange != sign!
-<%% if password != "swordfish" %>
-  <p>Nah-ah-ah! You didn't say the magic word!</p>
-<%% end %>
-
 
 ```
 
