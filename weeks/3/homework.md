@@ -53,5 +53,5 @@ to yourself how everything you see in the browser has been made to appear.
 
 - 3 points: Proper definitions for both models, at least 2 Shop rows created, each with at least 2 associated Listing rows.
 - 3 points: Data-driven implementations of both `index` and `show` views, including displaying the shop name on the `show` page and thumbnail images of all of the shop's listings.
-- 3 points: Redirection to home page if an invalid parameter is given to the `show` page.
+- 3 points: FREE because I originally wrote the wrong instructions here. :-)
 - 1 point: The home page includes your estimate and actual. (Remember, your time values are not graded; you get a point for simply including the proper HTML to display them) **AND** you have contributed at least one project idea to the Google Sheet.

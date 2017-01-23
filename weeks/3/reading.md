@@ -13,17 +13,3 @@
 * Each column will correspond to an object attribute that you can retrieve using `dot notation`, i.e. `m.title` where `m` is a variable of the `Movie` class; in other words, it represents a single row from our `movies` database table.
 
 ```
-
-* We can add intelligence to our controllers by defining controller methods:
-
-``` ruby
-class MoviesController < ApplicationController
-
-  def show
-    if params[:id] == "123"
-      redirect_to "http://www.google.com"
-    end
-  end
-
-end
-```
