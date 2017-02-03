@@ -30,17 +30,19 @@ Demo 2: New Movie
   - try it!
   - submit - broken - what's wrong?
 
-Challenge: Fix it! Display page showing "Movie added!" if it works
+Challenge: Fix it! Display page showing "Movie added!"
 
 **BREAK**
 
+Demo: Modify create to use redirect instead
+
 Demo: Edit page
 
-Challenge: Update action
+Challenge: `update` action with redirect
 
 Demo 4: Delete link goes to `destroy` action
 
-Challenge: Implement `destroy`
+Challenge: Implement `destroy` with redirect
 
 Unresolved Pain:
   - how do we edit the director for a movie?
