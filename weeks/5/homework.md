@@ -30,7 +30,7 @@ your project.  Your overview should include:
 
 **Final Step**
 
-3. Do this last: somewhere on the home page, use HTML to display your estimate and actual time.  Your grade does NOT depend on your estimate vs. actual time.  It is for your information only.
+Do this last: somewhere on the home page, use HTML to display your estimate and actual time.  Your grade does NOT depend on your estimate vs. actual time.  It is for your information only.
 
 
 **GRADING**
