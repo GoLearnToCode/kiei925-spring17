@@ -24,9 +24,7 @@ Album:
   title: string
   artist: string
   year: integer
-```
 
-```
 Song:
   title: string
   album_id: integer
@@ -115,7 +113,9 @@ class Album < ActiveRecord::Base
   has_many :songs
   
 end
+```
 
+```
 class Song < ActiveRecord::Base
 
   belongs_to :album
@@ -159,13 +159,17 @@ class Book < ActiveRecord::Base
   has_many :authors
   
 end
+```
 
+```
 class Author < ActiveRecord::Base
   
   has_many :books
   
 end
+```
 
+```
 class Work < ActiveRecord::Base
 
   belongs_to :author
