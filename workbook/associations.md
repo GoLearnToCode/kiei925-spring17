@@ -5,6 +5,8 @@ There are two kinds of associations:
 1. **One-to-Many**.  An album has many songs.  A blog post has many comments.  A user posts many tweets.
 1. **Many-to-Many**.  A movie has many actors, and an actor can perform in many movies.  An author can write many books, and a book can be co-written by many authors.  An article can have many tags, and a tag can be put on many articles.
 
+**You must adhere to strict column naming conventions.** Refer to [How To: Start Domain Modeling](domain_modeling) for details.
+
 Implementing a one-to-many association is easy.  Implementing a many-to-many association is achieved by breaking it down into two one-to-many associations.
 
 ### The One-to-Many Recipe
@@ -14,7 +16,6 @@ To implement a one-to-many association:
 1. Identify which model is the "one" and which model is the "many".
 1. The model at the "many" end needs a **foreign key column** to associate it to the "one" owner.
 
-**You must adhere to these naming conventions.** Refer to [How To: Start Domain Modeling](domain_modeling) for details.
 
 Example `models.yml` file:
 
