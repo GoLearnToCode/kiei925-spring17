@@ -14,7 +14,9 @@ To implement a one-to-many association:
 1. Identify which model is the "one" and which model is the "many".
 1. The model at the "many" end needs a **foreign key column** to associate it to the "one" owner.
 
-**Be sure to stick to Rails naming conventions.** Refer to [How To: Start Domain Modeling](domain_modeling) for details.
+**You must adhere to these naming conventions.** Refer to [How To: Start Domain Modeling](domain_modeling) for details.
+
+Example `models.yml` file:
 
 ```
 Album:
@@ -27,7 +29,7 @@ Song:
   album_id: integer
 ```
 
-Example data tables:
+Example data:
 
 <table class="table table-bordered">
   <thead>
@@ -102,6 +104,22 @@ Example data tables:
   </tbody>
 </table>
 
+Example models:
+
+``` ruby
+class Album < ActiveRecord::Base
+
+  has_many :songs
+  
+end
+
+class Song < ActiveRecord::Base
+
+  belongs_to :album
+  
+end
+```
+
 ### The Many-to-Many Recipe
 
 To implement a many-to-many association:
@@ -111,7 +129,8 @@ To implement a many-to-many association:
   1. The join model gets **two foreign keys**.
   1. The other models need **no foreign keys**.
 
-**Be sure to stick to Rails naming conventions.** Refer to [How To: Start Domain Modeling](domain_modeling) for details.
+Here's an example that allows for books to be written by multiple co-authors.  We invent a model named `Work` to represent the 
+intersection between books and authors:
 
 ```
 Book:
@@ -127,4 +146,27 @@ Author:
   name: string
   bio: text
   photo_url: string
+```
+
+Example models:
+
+``` ruby
+class Book < ActiveRecord::Base
+
+  has_many :authors
+  
+end
+
+class Author < ActiveRecord::Base
+  
+  has_many :books
+  
+end
+
+class Work < ActiveRecord::Base
+
+  belongs_to :author
+  belongs_to :book
+  
+end
 ```
