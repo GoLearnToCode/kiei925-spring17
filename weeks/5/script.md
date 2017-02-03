@@ -1,9 +1,10 @@
 **Goals:**
 
 - Reading and hacking prewritten code
-- Mastery of find_by, where, count
+- Mastery of `find_by`, `where`, `order`, `count`, `pluck`
 - collection_select
 - derivation of has_many, belongs_to
+- maybe `to_sentence` for the cast
 
 **Prep:**
 
@@ -30,6 +31,7 @@ Slides on one screen, write queries on the other chalkboard
 Rewrite counts on index pages using `has_many`
 Rewrite show pages using `has_many` and `belongs_to`
 
+Maybe `pluck` and then `to_sentence`
 
 ### Unresolved Pain:
 
