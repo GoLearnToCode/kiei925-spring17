@@ -5,21 +5,29 @@ This is the last homework assignment of the quarter.  Isn't this sad? :-(
 **Prep Work**
 
 1. Before doing anything else, read through these instructions, and then jot down how long you estimate it will take you to do this homework. Keep track of how much time you spend on the homework this week.
-3. Create a new Cloud9 Ruby on Rails workspace named `hw5` based on ```http://github.com/kiei925-winter17/etsy5```
-2. Once inside the `hw5` project, do whatever's necessary to get the app up and running.
+3. Create a new Cloud9 Ruby workspace named `project` based on ```https://github.com/kiei925-winter17/starting-point```
+2. Run `bundle` to make sure your workspace is ready for Rails
 4. Share your workspace with Garrett. Click the "Share" button at the top of your workspace, and enter his username: `garrettqmartin8`.  
 
-**Connect the Models**
+**Sketch Your Domain Model**
 
-Start by perusing the code that's already there.  Look at the routes, controllers, models, and views.  Notice the new `Shops` link in the navbar.
+1. **models.yml**.  Think about your models and the foreign keys you will
+need to tie them together.  Use the proper naming conventions.  Run `rake db:migrate` and repeat as often as necessary.
 
+2. **Apply Association Methods**.  Go into your models and add `has_many`,
+`belongs_to`, and `has_many... :through...` declarations to affirm
+the associations implied by your foreign keys.
 
+3. **seeds.rb**.  Write a `seeds.rb` file that creates enough rows of data
+for each model so that you can sufficiently test out your domain model.
+Include code in your seeds.rb to delete all previous data first.
 
-1. **Identify Associations**. Use `has_many` and `belongs_to` in your model files to build declarative relationships between them.
+4. **README.md**.  Use Markdown formatting to write an overview of
+your project.  Your overview should include:
 
-2. **Use Association Methods**.  Modify the views by removing as many queries as you can, and replacing them with association methods.  For example, instead of code like `Director.find_by(id: @movie.director_id)`, I could write `@movie.director` by first implementing the proper model associations.  Hint: There are queries that can be rewritten in the following actions: `shops#index`, `shops#show`, and `listings#show`.
+* Your elevator pitch (1 paragraph max)
+* User stories for the primary use cases (generally 8-12 stories)
 
-*Just a reminder: from the user's point of view, the application behavior should not change.  Only the code.*
 
 **Final Step**
 
@@ -28,7 +36,7 @@ Start by perusing the code that's already there.  Look at the routes, controller
 
 **GRADING**
 
-- 4 points: Proper implementation of association methods.
-- 4 points: Applying association methods wherever possible.
+- 6 points: Proper modeling (2 pts each for: proper column naming, association
+  methods, and a sufficient seeds file).
+- 3 points: Clearly written elevator pitch and properly formatted user stories.
 - 1 point: The home page includes your estimate and actual. (Remember, your time values are not graded; you get a point for simply including the proper HTML to display them).
-

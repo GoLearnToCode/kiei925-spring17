@@ -13,11 +13,18 @@
 Lecture:
   - how about those estimates?
   - Name one thing you like or hate about Getting Real
-  - Project Spreadsheet
-  - Use the Workbook!!
+  - Questions about user stories?
 
 Icebreaker Challenge:
   - Identify one thing you're curous about and figure it out
+
+
+Demo Challenge: console
+  - how many movies were released before 2000?
+  - ...what are the titles of those movies?
+  - ...in alphabetical order?
+  - how many movies are less than 2 hours long?
+  - which movie has something to do with astronauts?
 
 Review every `index` page
 Review every `show` page
@@ -31,7 +38,7 @@ Slides on one screen, write queries on the other chalkboard
 Rewrite counts on index pages using `has_many`
 Rewrite show pages using `has_many` and `belongs_to`
 
-Maybe `pluck` and then `to_sentence`
+FUN: Maybe `pluck` and then `to_sentence` and then `pluralize`
 
 ### Unresolved Pain:
 
