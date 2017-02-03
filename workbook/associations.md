@@ -81,8 +81,23 @@ Example data tables:
     </tr>
     <tr>
       <td>3</td>
-      <td>Something</td>
+      <td>Billy Jean</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>Beat It</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>Here Comes The Sun</td>
       <td>1</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>Wanna Be Startin' Something'</td>
+      <td>2</td>
     </tr>
   </tbody>
 </table>
