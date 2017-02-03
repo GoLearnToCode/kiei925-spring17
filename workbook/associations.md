@@ -24,7 +24,9 @@ Album:
   title: string
   artist: string
   year: integer
+```
 
+```
 Song:
   title: string
   album_id: integer
