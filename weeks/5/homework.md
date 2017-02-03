@@ -24,9 +24,8 @@ Include code in your seeds.rb to delete all previous data first.
 
 4. **README.md**.  Use Markdown formatting to write an overview of
 your project.  Your overview should include:
-
-* Your elevator pitch (1 paragraph max)
-* User stories for the primary use cases (generally 8-12 stories)
+  * Your elevator pitch (1 paragraph max)
+  * User stories for the primary use cases (generally 8-12 stories)
 
 
 **Final Step**
