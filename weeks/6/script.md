@@ -12,11 +12,15 @@ Lecture:
 
 
 Demo Challenge:
-  - show user model and forms
+  - show user model and sign-up form
   - how can we display the current user's name on every page?
   - try to use `user` variable from users#create
   - compare with server log redirect
-  - Use `cookies` hash in a view - watch the inspector and the server log
+  - prepare inspector and server log
+  - cookies inspector is database on client
+  - add row by assigning to cookies hash in view
+  - retrieve whenever you want to
+  
 
 **BREAK**
 
