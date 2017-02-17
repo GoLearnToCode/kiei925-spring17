@@ -29,8 +29,10 @@ Demo Challenge:
 * Uncomment `before_save` and then `rake db:seed`
 * Finish SLIDES: User Authentication
 * Cliffhanger: SLIDE on User Authorization to solve problems #2 and #3
+* Bletchley Park codebreaking slide
 
 **BREAK**
 
-### Solve #2: Template Logic
-### Solve #3: Redirect
+* Solve #2: Template Logic
+* Solve #3: Redirect
+* Margaret Hamilton
