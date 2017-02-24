@@ -37,7 +37,7 @@ To create a Heroku website for your Cloud9 workspace, this command will generate
 
 $ `heroku create [name]`
 
-The [name] is your requested subdomain, i.e. `myapp.heroku.com`.  If you do not request one, Heroku will invent a subdomain for you.  If you do try to request a subdomain... good luck.  You're competing against thousands of other Heroku customers for subdomains, so you might not get the name you want.
+The [name] is your requested subdomain, i.e. `myapp` for requesting `myapp.heroku.com`.  If you do not request one, Heroku will invent a subdomain for you.  If you do try to request a subdomain... good luck.  You're competing against thousands of other Heroku customers for subdomains, so you might not get the name you want.
 
 
 ### 4. Deploy your code
