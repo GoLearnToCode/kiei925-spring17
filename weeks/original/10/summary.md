@@ -1,6 +1,6 @@
 # Goals
 
-* Overview of the Asset Pipeline
-* Rails' generators
-* Learn about e-commerce concepts and techniques for implementing
-* Course wrap-up
+* Model dependencies
+* Everything is a Service
+* CTECs
+* What's next?
