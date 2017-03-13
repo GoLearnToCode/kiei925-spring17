@@ -18,3 +18,7 @@ sidebar:
     label: Canvas
     url: "https://canvas.northwestern.edu/courses/56970"
     icon: fa-comments
+  -
+    label: Slack
+    url: "https://kellogg-mba.slack.com/messages/kiei-925"
+    icon: fa-slack
