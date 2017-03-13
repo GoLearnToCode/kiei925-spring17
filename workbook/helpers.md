@@ -10,7 +10,7 @@ There are dozens of built-in helper methods in Rails, but here are the most esse
 
 ### 1. `link_to`
 
-HTML links look like this:
+Plain HTML links look like this:
 
 ``` html
 <a href="http://www.google.com">Click here to Google</a>
@@ -18,7 +18,7 @@ HTML links look like this:
 <a href="/movies/index">Click here to see the list of movies</a>
 ```
 
-We can make our intentions a bit clearer by using the `link_to` helper:
+We can use Ruby to make the code bit clearer by using the `link_to` helper:
 
 ``` erb
 <%%= link_to "Click here to Google", "http://www.google.com" %>
@@ -28,22 +28,19 @@ We can make our intentions a bit clearer by using the `link_to` helper:
 
 ### 2. `image_tag`
 
-When we want to embed a photo or image into our web page, there are two scenarios we have to consider, based on whether the photo lives on the internet somewhere, or whether we've put them into our project inside the `app/assets/images` folder.
+When we want to embed a photo or image into our web page, there are two scenarios we have to consider, based on whether the photo lives on the internet vs. inside our `app/assets/images` folder.
 
-For images that already have an internet url, it's pretty straightforward to write raw HTML (though we still don't recommend it):
+For images that already exist on the internet, it's pretty straightforward to write raw HTML:
 
 ``` html
 <img src="http://url/to/photo.png">
 ```
 
-For images that are contained inside of our `app/assets/images` folder, using the raw `<img>` tag is error-prone because of the way the Rails will generate public urls.  So we must use the `image_tag` helper in this case anyway.
+For images that are placed inside of our `app/assets/images` folder, we cannot use the HTML `<img>` tag.  We must use the `image_tag` helper function instead.
 
-Here's how you can use the `image_tag` helper to show images, regardless of whether you have a public url or an app-hosted image:
 
 ``` erb
-<%%= image_tag "http://url/to/photo.png" %>
-
-<%%= image_tag "photo.png" # uses /app/assets/images/photo.png %>
+<%%= image_tag "photo.png" # expects /app/assets/images/photo.png %>
 ```
 
 ### 3. `pluralize`
