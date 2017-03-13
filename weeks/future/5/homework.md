@@ -5,7 +5,7 @@ This is the last homework assignment of the quarter.  Isn't this sad? :-(
 **Prep Work**
 
 1. Before doing anything else, read through these instructions, and then jot down how long you estimate it will take you to do this homework. Keep track of how much time you spend on the homework this week.
-3. Create a new Cloud9 Ruby workspace named `project` based on ```https://github.com/kiei925-winter17/starting-point```
+3. Create a new Cloud9 Ruby workspace named `project` based on ```https://github.com/kiei925-spring17/starting-point```
 2. Run `bundle` to make sure your workspace is ready for Rails
 4. Share your workspace with Garrett. Click the "Share" button at the top of your workspace, and enter his username: `garrettqmartin8`.  
 

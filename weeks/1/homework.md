@@ -13,7 +13,7 @@ Please follow these instructions carefully.
 3. Create a new Cloud9 workspace:
   - Name it `hw1`.  
   - You can leave the Description field blank.
-  - Use the **Clone from Git** option and specify `<%= github_url(etsy1) %>`
+  - Use the **Clone from Git** option and specify `http://github.com/kiei925-spring17/etsy1`
   - Select the **Ruby** template
   - Click "Create Workspace"
 2. Once inside the `hw1` project, go to the Terminal window and run this command: `bundle install`
@@ -40,5 +40,5 @@ Of course, use your own values instead of the numbers shown above.  Your grade d
 **HINTS**
 
 - The application layout file is `app/views/layouts.html.erb`
-- Your CSS goes in `app/assets/stylesheets/application.css`
-- Watch your server log for interesting things!!!  We will learn more about it next week.
+- Your css goes in `app/assets/stylesheets/application.css` after all of the comments
+- Watch your server log for interesting things.  We will learn more about it next week.

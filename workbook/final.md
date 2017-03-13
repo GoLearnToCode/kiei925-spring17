@@ -2,7 +2,7 @@
 
 Every student is required to turn in a Ruby on Rails web application. You're highly encouraged to work in groups, but each student must turn in their own project.
 
-**Due Date: Wednesday, March 15, 11:59pm**
+**Due Date: Wednesday, June 7, 11:59pm**
 
 Late work will not be accepted.
 
@@ -27,5 +27,5 @@ Pick any 3.  Each item is worth up to 7 points.
 - Provide wireframes, user stories, and business rules for your entire application.
 - Authentication and authorization: Allow users to sign up, sign in, and sign out. Protect sensitive parts of your application through the use of a before_action. Implement role-based authorization and support at least two different types of users to access different parts of your application.
 - Implement Two-Factor Authentication via text or email.
-- Create a custom `rake` task to populate your database via CSV file, or load data from an external web service. 
+- Create a custom `rake` task to populate your database via CSV file, or load data from an external web service.
 - Deploy your app to Heroku.com. (If working in a group, only one live deployment is required per group.) Include your live URL in your submission (i.e. your email to Garrett) for full credit.

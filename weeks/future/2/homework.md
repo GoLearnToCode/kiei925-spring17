@@ -8,7 +8,7 @@
 3. Create a new Cloud9 workspace:
   - Name it `hw2`.  
   - You can leave the Description field blank.
-  - Use the **Clone from Git** option and specify ```http://github.com/kiei925-winter17/etsy2```
+  - Use the **Clone from Git** option and specify ```http://github.com/kiei925-spring17/etsy2```
   - Select the **Ruby on Rails** template
   - Click "Create Workspace"
 2. Once inside the `hw2` project, go to the Terminal window and run this command: `bundle`
