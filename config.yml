@@ -11,10 +11,6 @@ question_board: false
 sidebar:
 
   -
-    label: Syllabus
-    url: 'https://github.com/GoLearnToCode/kiei925-spring17/raw/master/files/KIEI-925-0-80_Winter2017.pdf'
-    icon: fa-list-ol
-  -
     label: Canvas
     url: "https://canvas.northwestern.edu/courses/56970"
     icon: fa-comments
