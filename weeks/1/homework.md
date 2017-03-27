@@ -14,7 +14,7 @@ Please follow these instructions carefully.
 * [Introduction to User Stories](http://en.wikipedia.org/wiki/User_story)
 * [Advantages of the User Story Template](http://www.mountaingoatsoftware.com/blog/advantages-of-the-as-a-user-i-want-user-story-template)
 
-**Part B: Build It**
+**Part C: Build It**
 
 1. Draw a wireframe of a simplified version of Etsy.com's home page.  Think about a _minimal home page_, the core offering, and the simplest implementation necessary to gain traction. Take a picture of your wirefame.
 3. Create a new Cloud9 workspace:
@@ -34,7 +34,7 @@ Please follow these instructions carefully.
 ```
 Of course, use your own values instead of the numbers shown above.  Your grade does NOT depend on your estimate vs. actual time.  It is for your information only.
 
-**PART C: Turn It In**
+**PART D: Turn It In**
 4. Share your workspace with Garrett. Click the "Share" button at the top of your workspace, and enter his username: `garrettqmartin8`.  If it's not obvious how to do that, [watch this quick video](https://docs.c9.io/docs/share-a-workspace).
 
 
