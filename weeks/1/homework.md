@@ -5,14 +5,21 @@ Please follow these instructions carefully.
 **Part A: Preparation**
 
 1. Before doing anything else, read through all of these instructions and jot down how long you estimate it will take you to do this homework. Then keep track of how much time you actually spend on the homework this week.
-2. Install the following Chrome Extensions: _ColorZilla_, _JSONView_, and _WhatFont_
-1. Draw a wireframe of a simplified version of Etsy.com's home page.  Think about a _minimal home page_, the core offering, and the simplest implementation necessary to gain traction. Take a picture of your wirefame.
+2. Install the following Chrome Extensions: _ColorZilla_ and _WhatFont_
+
+**Part B: Read It**
+
+(Estimated total reading time: 20 minutes)
+
+* [Introduction to User Stories](http://en.wikipedia.org/wiki/User_story)
+* [Advantages of the User Story Template](http://www.mountaingoatsoftware.com/blog/advantages-of-the-as-a-user-i-want-user-story-template)
 
 **Part B: Build It**
 
+1. Draw a wireframe of a simplified version of Etsy.com's home page.  Think about a _minimal home page_, the core offering, and the simplest implementation necessary to gain traction. Take a picture of your wirefame.
 3. Create a new Cloud9 workspace:
   - Name it `hw1`.  
-  - You can leave the Description field blank.
+  - You can leave the _Description_ field blank.
   - Use the **Clone from Git** option and specify `http://github.com/kiei925-spring17/etsy1`
   - Select the **Ruby** template
   - Click "Create Workspace"
@@ -41,4 +48,4 @@ Of course, use your own values instead of the numbers shown above.  Your grade d
 
 - The application layout file is `app/views/layouts.html.erb`
 - Your css goes in `app/assets/stylesheets/application.css` after all of the comments
-- Watch your server log for interesting things.  We will learn more about it next week.
+- Watch your server log for interesting things!  We will learn more about it next week.
