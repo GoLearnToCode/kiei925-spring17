@@ -8,6 +8,6 @@
 
 If all goes well, by the end of class today, you should be able to:
 
-* Draw a basic wireframe
+* Use the Cloud9 editor to write code and start the Rails server
 * Make your own HTML pages inside of a Rails application
 * Realize that everything Jeff says in class is a movie reference or a lame joke

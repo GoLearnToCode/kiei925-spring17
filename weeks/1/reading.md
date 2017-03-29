@@ -1,6 +1,6 @@
 ## KIEI-925 Survival Guide
 
-This class works differently than any class you’ve ever taken before.
+**This class works differently than any class you’ve ever taken before.**
 
 * Class time is for learning the big, important ideas. Homework time is for learning the details.
 * DO NOT furiously take notes while I'm speaking.  Trust me on this.  Listen actively and just try to understand the big idea. Take notes for details during the lab times instead.
