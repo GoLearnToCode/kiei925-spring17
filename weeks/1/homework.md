@@ -52,8 +52,9 @@ Of course, use your own values instead of the numbers shown above.  Your grade d
 
 **GRADING**
 
-- 6 points:  A home page showing a simplified version of an Etsy-style home page.  
+- 5 points:  A home page showing a simplified version of an Etsy-style home page.  
 - 3 points:  Decent visual styling that roughly matches Etsy.com
+- 1 point:  Correct browser tab title ("Etsy")
 - 1 point: The home page includes your estimate and actual time. (The time values are not graded. You get a point for simply including the proper HTML to display them).
 
 **HINTS**
