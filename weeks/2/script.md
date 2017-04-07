@@ -6,46 +6,43 @@
 - params hash
 - rails console to see variables
 
-**Prep:**
+**Demo 1: Resource Routing**
 
-- in-class app should have one finished resource (routes and just index page)  
-- in-class app should have one broken resource: routes and controller missing, index.html.erb prewritten but unreachable
-- prewritten index.html.erb should be a hardcoded series of `find` + markup to display a few items
+  - Go to `/cards`
+  - How does that page show up?
 
-Lecture:
-  - your app is just a container of resources
-  - the web is organized by resource locators
-  - ? DSL slides
-  - ? URL structure -> resources
+**Demo 2: ERB**
 
-Icebreaker Challenge:
-  - fix broken resource to see index page?
-  - study the index page - can you get a sense of how it works?
+  - Go to `/cards/index.html.erb`
+  - Change the url to show different cards
+  - Use a variable to hardcode a value or suit
+  - Use ERB to plug that variable in
 
-Demo 1: Recreate index page logic inside the console
-  - rails console to `find` an item
-  - ruby hashes
-  - try to pull specific values out of the hash
+**Demo 3: .each**
 
-Demo 2: EDD for show page
-  - resource 'movies' also allows for `/movies/:id`
-  - EDD: try to browse for a specific item
-  - server log discovery
-  - show.html.erb with hardcoded item
-  - Challenge: use params hash to display the right movie
+  - Still inside `/cards/index.html.erb`
+  - Use `.each` to show all 13 cards of the same suit
+  - Use `.each` to show the entire deck
+
 
 **BREAK**
 
-Demo 3: Pure Data-Driven Site
-  - rails console to get a list of all items
-  - rewrite index page with .each
-    - first use variable `movie` many times
-    - Force HTML to be identical for each movie
-    - Notice what's changing, and what's constant
-    - use .each to be lazy
-    - Discover all the new items!
+**Demo 4: Intro to Console: .all and .find_by**
+  - `Movie.all`
+  - `Movie.find_by`
 
-Homework Preview
+**Demo 5: Movies page**
+  - Go to `/movies`
+  - Demo: how is the current code working
+  - LAB: Add another movie that you like (copy/paste entire section)
+  - LAB: Show all the movies
+
+**Demo 6: param["id"]**
+  - Demo: how to use params["id"] inside `show.html.erb`
+  - LAB: Challenge: show the correct movie
+
+
+**Homework Preview**
 
 ? Identify resources on your favorite websites
 

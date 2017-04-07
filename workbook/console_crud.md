@@ -1,4 +1,4 @@
-# Cheat Sheet: Model CRUD in the Rails Console
+# Cheat Sheet: Models and the Rails Console
 
 Models are our gateway to our application's data set.  Each model is a table of data.  We can have as many rows in the table as we want.  The columns are defined by the model's schema.
 

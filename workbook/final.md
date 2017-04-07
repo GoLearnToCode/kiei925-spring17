@@ -6,6 +6,16 @@ Every student is required to turn in a Ruby on Rails web application. You're hig
 
 Late work will not be accepted.
 
+### Requirements
+
+* Build a small MVP of a concept product or service.
+* Your app should demonstrate:
+  * content for visitors
+  * user signup
+  * user-specific functionality
+
+
+
 ### How To Turn In Your Project
 
 Your final project must be contained in a workspace named *final* in your C9 account. You should use the `starting-point` repository as the initial clone url.
@@ -16,23 +26,28 @@ Please send a Canvas message to Garrett when your project is ready for review; i
 
 Projects can achieve a maximum of 25 points.
 
-1. Each requirement listed below is worth up to 7 points. You may choose up to 3 requirements, for a total of 21 possible points.
+1. Each requirement listed below is worth up to 7 points.
 2. Up to 4 points will be awarded based on the instructor's subjective evaluation of your  code readability, usability, visual styling, and originality.
 
-### Requirements Menu
+### Specific Requirements
 
-Pick any 3.  Each item is worth up to 7 points.
+1. Authentication and authorization
+  * Allow users to sign up, sign in, and sign out.
+  * Protect sensitive parts of your application
+  * Use securely-encrypted passwords
+2. Domain model has at least 3 models not including the User
+  * Proper associations
+  * At least one must undergo the full "CRUD" cycle
+3.
+
+
+
+### First Milestone
+
+Each item is worth up to 7 points.
 
 Milestone:
 
 - All your models
 - Assume one user is signed in
 - The main user flow
-
-
-- Write a 2-page paper related to startup programming and management.  Examples: agile vs traditonal project management; how this course has affected your understanding of building apps;  technology risks/pitfalls in early stage startups; etc.
-- Provide wireframes, user stories, and business rules for your entire application.
-- Authentication and authorization: Allow users to sign up, sign in, and sign out. Protect sensitive parts of your application through the use of a before_action. Implement role-based authorization and support at least two different types of users to access different parts of your application.
-- Implement Two-Factor Authentication via text or email.
-- Create a custom `rake` task to populate your database via CSV file, or load data from an external web service.
-- Deploy your app to Heroku.com. (If working in a group, only one live deployment is required per group.) Include your live URL in your submission (i.e. your email to Garrett) for full credit.
