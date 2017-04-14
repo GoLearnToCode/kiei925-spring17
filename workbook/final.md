@@ -18,7 +18,7 @@ Late work will not be accepted.
 
 ### How To Turn In Your Project
 
-Your final project must be contained in a workspace named *final* in your C9 account. You should use the `starting-point` repository as the initial clone url.
+Your final project must be contained in a _private_ workspace named *final* in your C9 account. You should use the `starting-point` repository as the initial clone url.
 
 Please send a Canvas message to Garrett when your project is ready for review; include the name of your final project workspace and your live URL (if applicable).
 
@@ -31,23 +31,18 @@ Projects can achieve a maximum of 25 points.
 
 ### Specific Requirements
 
-1. Authentication and authorization
+1. A small app that demonstrates a potential MVP of a real or imaginary business.  "Uber for Cats" is totally acceptable.
+2. User authentication and authorization
   * Allow users to sign up, sign in, and sign out.
   * Protect sensitive parts of your application
   * Use securely-encrypted passwords
-2. Domain model has at least 3 models not including the User
-  * Proper associations
-  * At least one must undergo the full "CRUD" cycle
-3.
 
 
 
-### First Milestone
+### First Milestone: 7 points
 
-Each item is worth up to 7 points.
+**DUE: Week 6 (May 5)**
 
-Milestone:
-
-- All your models
-- Assume one user is signed in
-- The main user flow
+- Entire domain model (at least three models)
+- Associations (`has_many` and `belongs_to`)
+- Landing page (home page)
