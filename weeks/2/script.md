@@ -38,7 +38,7 @@
   - LAB: Show all the movies
 
 **Demo 6: param["id"]**
-  - Demo: how to use params["id"] inside `show.html.erb`
+  - Demo: how to use `params["id"]` inside `show.html.erb`
   - LAB: Challenge: show the correct movie
 
 

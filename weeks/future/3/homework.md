@@ -13,22 +13,16 @@
 3. Run the project and verify that you can view the home page in your browser.  You should be able to click on an item to get to its `show` page.
 4. Share your workspace with Garrett. Click the "Share" button at the top of your workspace, and enter his username: `garrettqmartin8`.  If it's not obvious how to do that, [watch this quick video](https://docs.c9.io/docs/share-a-workspace).
 
-**Contribute a Project Idea**
-
-1. Go to [this Google Sheet](https://docs.google.com/spreadsheets/d/1TRq-u4ohBstllKNw_Hw11hlDhFhjmRPAzje9jaNnJZM/edit?usp=sharing) and add at least one project idea, hopefully two or three.  You're not obligated to build your idea as your final project.  This is just a brainstorming session for all of us.
 
 **Create A Database-Backed Model**
 
-1. Find the `db/models.yml` file and add two models: `Listing` and `Shop`.  Determine the attributes you will need for each model by reading the Business Rules section below.
-2. Use the `rails console` in a Terminal window to add at least two shops and four products.  Use the `etsy-data.json` file as a guide, or make up your own products!  Each shop must have at least two listings for sale.
-2. Modify the `index` view to be database-backed, by using the `Listing` model to help generate the HTML.  
-2. Modify the `show` view to be database-backed, by using the `Listing` and `Shop` models to help generate the HTML.  
+1. Find the `db/models.yml` file and add two models: `Item` and `Shop`.  Determine the attributes you will need for each model by reading the Business Rules section below.
+2. Modify the `index` view to be database-backed, by using the `Item` model to help generate the HTML.  
+2. Modify the `show` view to be database-backed, by using the `Item` and `Shop` models to help generate the HTML.  
   - Display the name of the associated Shop in or near the title in the `h1` element.
   - Clicking the photo should no longer navigate to the real Etsy page.  (Instead, our app is finally becoming the "real" Etsy.)
   - Display a list of small, thumbnail images of all of listings in the same shop.
   - Clicking one of the thumbnail images should navigate directly to that listing's `show` page.
-
-HINT: You should not have any references to the old `EtsyData` class anymore when you're done, nor should there be any direct links to etsy.com anymore.
 
 HINT 2: Be insanely curious. I wrote a lot of code for you.  Prove
 to yourself how everything you see in the browser has been made to appear.
