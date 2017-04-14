@@ -27,6 +27,7 @@ Please send a Canvas message to Garrett when your project is ready for review; i
 Projects can achieve a maximum of 25 points.
 
 1. Each requirement listed below is worth up to 7 points.
+1. The milestone (due week 6) is worth 7 points.
 2. Up to 4 points will be awarded based on the instructor's subjective evaluation of your  code readability, usability, visual styling, and originality.
 
 ### Specific Requirements
