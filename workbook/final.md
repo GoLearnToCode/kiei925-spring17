@@ -43,6 +43,6 @@ Each of the following are worth 5 points:
 ### Milestone: DUE: Week 6 (May 5)
 
 - Entire domain model (at least three models)
-- Associations (`has_many` and `belongs_to`)
+- Associations (foreign key columns as necessary)
 - Landing page (home page)
 - Database populated with some sample data
