@@ -10,22 +10,30 @@
 
 **Model Associations**
 
-* Rewrite counts on index pages using `has_many`
-* Rewrite show pages using `has_many` and `belongs_to`
+* Rewrite movie#show using associations for director and roles
 * FUN: Maybe `pluck` and then `to_sentence` and then `pluralize`
 
 **Cookies and User Accounts**
 
-Demo Challenge:
-  - show user model and sign-up form
-  - how can we display the current user's name on every page?
-  - try to use `user` variable from users#create
-  - compare with server log redirect
-  - prepare inspector and server log
-  - cookies inspector is database on client
-  - "login" by saving name to a cookie
-  - retrieve whenever you want to
-  - logout
+Challenge: finish the signup process
+
+To understand login, let's think about what we expect:
+  - it remembers our name
+  - it gives us access to private data
+
+Let's start with the first one.
+
+Given: a sessions controller and login form.
+
+How can we remember the name of the person trying to sign in?
+
+  - false start
+    - try to keep user name in variable and use it in layout
+    - what would happen if multiple people logged in?
+  - together: demo cookies hash
+  - togther: logout
+
+Maybe? Nicer logout url with `get '/logout' => 'sessions#destroy'`
 
 
 **Next Week**: security concerns; tooling (source control, testing etc.)
