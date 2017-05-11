@@ -37,10 +37,12 @@ Demo Challenge:
 
 ## Cliffhanger
 * SLIDE on User Authorization to solve problems #2 and #3
-* Bletchley Park codebreaking slide
 
 **BREAK**
 
 * Solve #3: Template Logic
 * Solve #4: Redirect
 * Margaret Hamilton
+
+
+MAYBE? https://twitter.com/wakaleo/status/854702550469234692
