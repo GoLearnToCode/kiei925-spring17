@@ -5,6 +5,7 @@
 Some links for today:
 
 * [Rails Guides: Joining Tables](http://guides.rubyonrails.org/v4.2/active_record_querying.html#using-array-hash-of-named-associations)
+* [Kanban Overview](https://www.atlassian.com/agile/kanban)
 * [Embracing Agile (Harvard Business Review)](https://www.dropbox.com/s/ps9g8d1l28hk7i8/embracing-agile.pdf?dl=0)
 * http://agilemanifesto.org/principles.html
 * https://www.versionone.com/agile-101/agile-software-programming-best-practices/
