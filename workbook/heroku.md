@@ -24,6 +24,13 @@ Have fun with that.
 Your Gemfile needs to look a little different than the Rails default.  See the Gemfile we've used in class for an example.  (Specifically, look at the `production` group section.)  If you started from our `starting-point` repository then you should already
 be all set.
 
+<hr>
+
+NOTE: You may need to delete an old configuration file.  This command will remove it:
+
+$ `rm -rf .bundle`
+
+
 
 ### 3. Use the `heroku` command to create a new website
 

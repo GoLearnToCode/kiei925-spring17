@@ -1,6 +1,5 @@
 # Goals
 
-* Model dependencies
-* Everything is a Service
+* Javascript Goodies
 * CTECs
 * What's next?
